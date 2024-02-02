@@ -1,0 +1,11 @@
+.video-container iframe {
+    width: 80%;
+    height: 750px;
+  }
+
+  @media screen and (max-width: 720px) {
+    .video-container iframe {
+      width: 90%;
+      height: auto;
+    }
+  }
