@@ -5,10 +5,11 @@ import VideoLoop from './components/Video';
 import Compromiso from './components/Compromiso';
 import DatosNovios from './components/Novios';
 import Formulario from './components/Formulario';
+import Avion from './components/Avion';
 
 function App() {
   return (
-    <div className="container-fluid p-0 background--animation--tiket">
+    <div className="container-fluid p-0 background--animation--imagen">
       {/* <header className="container-fluid p-0">
         
       </header> */}
