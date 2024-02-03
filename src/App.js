@@ -4,6 +4,8 @@ import './App.css';
 import TicketImagen from './components/Ticket';
 import VideoLoop from './components/Video';
 import Compromiso from './components/Compromiso';
+import DatosNovios from './components/Novios';
+import Formulario from './components/Formulario';
 
 function App() {
   return (
@@ -15,14 +17,14 @@ function App() {
       <main>
         {/* Portada */}
         <VideoLoop />
+        {/* Datos novios */}
+        <DatosNovios />
         {/* Ticket */}
         <TicketImagen />
-
-
         {/* Video declaración */}
         <Compromiso />
-
-
+        {/* Formulario de asistencia */}
+        <Formulario />
       </main>
     </div>
   );

@@ -32,7 +32,7 @@ const TicketImagen = () => {
             <div className="card mx-auto img-fluid" style={{width:'90%'}}>
                 <img
                     className="card-img-top img-fluid rounded"
-                    src={`images/imagen${imagenActual}.jpg`}
+                    src={`images/imagen${imagenActual}.png`}
                     alt={`Imagen ${imagenActual}`}
                     onClick={cambiarImagen}
                     style={{ transition: 'opacity 1s ease-in-out' }}
