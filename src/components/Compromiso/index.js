@@ -6,7 +6,7 @@ const ReproductorYouTube = () => {
   const videoId = videoUrl.split('v=')[1]; // Extraer el ID del video de la URL
 
   return (
-    <div className="pt-3 background--animation--tiket">
+    <div className="pt-3">
     <p className='text-center text-white m-0 fw-bold fs-1'>Declaración</p>
       <div className="video-container text-center">
         <iframe

@@ -27,7 +27,7 @@ const TicketImagen = () => {
     }, [contadorSegundos]);
 
     return (
-        <div className='background--animation--tiket py-0'>
+        <div className='py-0'>
             <p className='text-center text-white m-0 fw-bold fs-1'>Toque para ver respaldo</p>
             <div className="card mx-auto img-fluid" style={{width:'90%'}}>
                 <img

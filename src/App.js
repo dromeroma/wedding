@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 
 import TicketImagen from './components/Ticket';
@@ -9,7 +8,7 @@ import Formulario from './components/Formulario';
 
 function App() {
   return (
-    <div className="container-fluid p-0">
+    <div className="container-fluid p-0 background--animation--tiket">
       {/* <header className="container-fluid p-0">
         
       </header> */}
