@@ -60,7 +60,7 @@ const TicketImagen = () => {
                 onClick={cambiarImagen}
             >
                 <img
-                    className="card-img-top img-fluid rounded"
+                    className="card-img-top img-fluid rounded-5"
                     src={`images/imagen${imagenActual}.png`}
                     alt={`Imagen ${imagenActual}`}
                 />
