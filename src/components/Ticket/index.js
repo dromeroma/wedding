@@ -18,7 +18,7 @@ const TicketImagen = () => {
         const intervalo = setInterval(() => {
             setContadorSegundos((prevSegundos) => prevSegundos + 1);
 
-            if (contadorSegundos >= 3) {
+            if (contadorSegundos >= 30) {
                 cambiarImagen();
             }
         }, 1000);
