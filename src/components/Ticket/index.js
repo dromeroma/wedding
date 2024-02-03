@@ -7,20 +7,23 @@ const TicketImagen = () => {
     const obtenerClaseAnimacionAleatoria = () => {
 
         const animacionesDisponibles = [
-            'animate__fadeIn',
-            'animate__fadeInUp',
-            'animate__fadeInDown',
-            'animate__fadeInLeft',
-            'animate__fadeInRight',
-            'animate__rotateIn',
-            'animate__bounceIn',
-            'animate__zoomIn',
-            'animate__flipInX',
             'animate__flipInY',
-            'animate__slideInUp',
-            'animate__slideInDown',
-            'animate__slideInLeft',
-            'animate__slideInRight',
+            'animate__flipInX',
+            
+            //'animate__fadeIn',
+            // 'animate__fadeInUp',
+            // 'animate__fadeInDown',
+            // 'animate__fadeInLeft',
+            // 'animate__fadeInRight',
+            // 'animate__rotateIn',
+            // 'animate__bounceIn',
+            // 'animate__zoomIn',
+            // 'animate__flipInX',
+            // 'animate__flipInY',
+            // 'animate__slideInUp',
+            // 'animate__slideInDown',
+            // 'animate__slideInLeft',
+            // 'animate__slideInRight',
             // Agrega más clases de animación según sea necesario
         ];
         const indiceAleatorio = Math.floor(Math.random() * animacionesDisponibles.length);
