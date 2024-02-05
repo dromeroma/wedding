@@ -54,7 +54,7 @@ const TicketImagen = () => {
     const anchoEstilo = window.innerWidth > 1024 ? '30%' : window.innerWidth < 768 ? '60%' : '50%';
 
     return (
-        <div className='py-0'>
+        <div className='pt-3 pt-md-5'>
             <div className='container' style={{ width: anchoEstilo }}>
                 <img
                     src="images/tiket.png" // Reemplaza con la ruta de tu imagen

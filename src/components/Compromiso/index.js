@@ -8,7 +8,7 @@ const ReproductorYouTube = () => {
   const anchoEstilo = window.innerWidth > 1024 ? '40%' : window.innerWidth < 768 ? '70%' : '60%';
 
   return (
-    <div className="pt-3">
+    <div className="pt-3 pt-md-5">
     {/* <p className='text-center text-white m-0 fw-bold fs-1'>Declaración</p> */}
     <div className='container' style={{ width: anchoEstilo }}>
         <img

@@ -4,7 +4,7 @@ import 'animate.css';
 const Novios = () => {
   const anchoEstilo = window.innerWidth > 1024 ? '50%' : window.innerWidth < 768 ? '80%' : '70%';
   return (
-    <div className="mt-0 mt-md-2">
+    <div className="mt-0 pt-md-5">
       {/* <p className='text-center text-white m-0 fw-bold fs-1'>Datos de los novios</p> */}
       <div className='container' style={{ width: anchoEstilo }}>
         <img

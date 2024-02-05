@@ -4,7 +4,7 @@ const FormularioGoogle = () => {
   const formularioSrc = "https://docs.google.com/forms/d/e/1FAIpQLSe_c85VIsNY6ND1Y1OhtZsHbxnUvuR5716etrvYAvH7NW9GwA/viewform?embedded=true";
 
   return (
-    <div className="mt-2">
+    <div className="pt-3 pt-md-5">
       <p className='text-center text-white m-0 fw-bold fs-1'>Formulario de asistencia</p>
       <div className="container embed-responsive">
         <iframe
