@@ -11,10 +11,10 @@ const FormularioGoogle = () => {
           title="Formulario de Google"
           className="embed-responsive-item"
           src={formularioSrc}
-          frameBorder="0"
-          marginHeight="0"
-          marginWidth="0"
-          scrolling="no"
+          // frameBorder="0"
+          // marginHeight="0"
+          // marginWidth="0"
+          // scrolling="no"
         >
           Cargando...
         </iframe>
