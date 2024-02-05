@@ -9,7 +9,7 @@ const TicketImagen = () => {
         const animacionesDisponibles = [
             'animate__flipInY',
             'animate__flipInX',
-            
+
             //'animate__fadeIn',
             // 'animate__fadeInUp',
             // 'animate__fadeInDown',
@@ -51,9 +51,18 @@ const TicketImagen = () => {
         return () => clearInterval(intervalo);
     }, [contadorSegundos]);
 
+    const anchoEstilo = window.innerWidth > 1024 ? '30%' : window.innerWidth < 768 ? '60%' : '50%';
+
     return (
         <div className='py-0'>
-            <p className='text-center text-white m-0 fw-bold fs-1'>Toque para ver respaldo</p>
+            <div className='container' style={{ width: anchoEstilo }}>
+                <img
+                    src="images/tiket.png" // Reemplaza con la ruta de tu imagen
+                    alt="Imagen de Boda"
+                    className="img-fluid rounded-2"
+                />
+            </div>
+
             <div
                 className={`card mx-auto img-fluid animate__animated ${animacionActual}`}
                 style={{ width: '90%' }}
