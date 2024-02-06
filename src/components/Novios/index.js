@@ -18,7 +18,7 @@ const Novios = () => {
         <img
           src="images/datos-novios.jpg" // Reemplaza con la ruta de tu imagen
           alt="Imagen de Boda"
-          className="img-fluid rounded-4"
+          className="img-fluid rounded-2"
         />
       </div>
     </div>
