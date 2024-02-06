@@ -20,7 +20,7 @@ const ReproductorYouTube = () => {
 
       <div className="video-container text-center">
         <iframe
-          className="embed-responsive-item rounded-4"
+          className="embed-responsive-item rounded-2"
           src={`https://www.youtube.com/embed/${videoId}`}
           title="YouTube video player"
           allowFullScreen
