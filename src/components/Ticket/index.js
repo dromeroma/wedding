@@ -68,7 +68,7 @@ const TicketImagen = () => {
     }, []); // Ejecutar solo una vez al montar el componente
 
     const anchoEstilo = window.innerWidth > 1024 ? '30%' : window.innerWidth < 768 ? '60%' : '50%';
-    const anchoEstilo2 = window.innerWidth > 1024 ? '15%' : window.innerWidth < 768 ? '30%' : '10%';
+    const anchoEstilo2 = window.innerWidth > 1024 ? '15%' : window.innerWidth < 768 ? '20%' : '25%';
 
     return (
         <div className='pt-3 pt-md-5'>
@@ -95,7 +95,7 @@ const TicketImagen = () => {
                     src="images/toca-para-interactuar.png" // Reemplaza con la ruta de tu imagen
                     alt="Toca aquí"
                     className={`img-fluid text-end animate__animated ${animacionActiva ? 'animate__heartBeat' : ''}`}
-                    style={{ width: anchoEstilo2, position: 'absolute', top: 30, right: 15 }}
+                    style={{ width: anchoEstilo2, position: 'absolute', top: '3%', right: '2%' }}
                 />
                 {/* <div className="card-body">
             <p className="card-text">Descripción de la imagen o cualquier otro contenido aquí.</p>
