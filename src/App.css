@@ -44,7 +44,7 @@
   background-image: url('../public/images/Fondo.png');
   background-size: cover;
   background-position: center;
-  animation: moverImagen 10s linear infinite; /* Ajusta la duración según tus necesidades */
+  animation: moverImagen 50s linear infinite; /* Ajusta la duración según tus necesidades */
 }
 
 @keyframes moverImagen {
