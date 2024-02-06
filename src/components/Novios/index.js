@@ -3,13 +3,14 @@ import 'animate.css';
 
 const Novios = () => {
   const anchoEstilo = window.innerWidth > 1024 ? '50%' : window.innerWidth < 768 ? '80%' : '70%';
+  const topNubes = window.innerWidth > 1024 ? '-0.5%' : window.innerWidth < 768 ? '-1.5%' : '-1%';
   return (
     <div className="p-0">
       <img
         src="images/nubes.png" // Reemplaza con la ruta de tu imagen
         alt="Toca aquí"
         className={`img-fluid text-end`}
-        style={{ marginTop: '-0.5%'}}
+        style={{ marginTop: topNubes}}
       />
 
       <div className='container' style={{ width: anchoEstilo, marginTop: '-13%' }}>
