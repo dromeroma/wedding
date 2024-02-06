@@ -9,12 +9,13 @@ const FormularioGoogle = () => {
       <div className="d-flex justify-content-center vh-100">
         <iframe
           title="Formulario de Google"
-          className="w-100 mw-60"
+          className="w-100 mw-70"
           src={formularioSrc}
+          style={{ overflow: 'hidden'}}
           //frameBorder="0"
           // marginHeight="600"
           // marginWidth="400"
-          scrolling="no"
+          //scrolling="no"
         >
           Cargando...
         </iframe>
