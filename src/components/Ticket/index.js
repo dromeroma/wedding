@@ -86,7 +86,7 @@ const TicketImagen = () => {
                 onClick={cambiarImagen}
             >
                 <img
-                    className={`card-img-top img-fluid rounded-5 animate__animated ${animacionActual}`}
+                    className={`card-img-top img-fluid rounded-2 animate__animated ${animacionActual}`}
                     src={`images/imagen${imagenActual}.png`}
                     alt={`Imagen ${imagenActual}`}
                 />
