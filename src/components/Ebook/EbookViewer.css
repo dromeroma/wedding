@@ -1,0 +1,19 @@
+.img-fluid {
+    transition: transform 0.5s ease;
+  }
+  
+  .forward {
+    transform: translateX(-100%);
+  }
+  
+  .backward {
+    transform: translateX(100%);
+  }
+  
+  /* Font family for pages number  */
+
+  .font--family--number {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-weight: 600;
+  }
