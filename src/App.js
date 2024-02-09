@@ -25,7 +25,7 @@ function App() {
 
       <main>
         {/* Ebook */}
-        <Ebook images={images} />
+        {/* <Ebook images={images} /> */}
         {/* Portada */}
         <VideoLoop />
         {/* Datos novios */}
