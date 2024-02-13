@@ -6,6 +6,7 @@ import Compromiso from './components/Compromiso';
 import DatosNovios from './components/Novios';
 import Formulario from './components/Formulario';
 import Ebook from './components/Ebook';
+import Audio from './components/Audio';
 
 function App() {
 
@@ -28,6 +29,9 @@ function App() {
         {/* <Ebook images={images} /> */}
         {/* Portada */}
         <VideoLoop />
+
+        {/*** Audio ***/}
+        <Audio />
         {/* Datos novios */}
         <DatosNovios />
         {/* Ticket */}
