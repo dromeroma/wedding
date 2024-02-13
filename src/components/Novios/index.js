@@ -3,7 +3,7 @@ import 'animate.css';
 
 const Novios = () => {
   const anchoEstilo = window.innerWidth > 1024 ? '50%' : window.innerWidth < 768 ? '80%' : '70%';
-  const topNubes = window.innerWidth > 1024 ? '-0.5%' : window.innerWidth < 768 ? '-1.6%' : '-1%';
+  const topNubes = window.innerWidth > 1024 ? '-2.3%' : window.innerWidth < 768 ? '-1.6%' : '-1%';
   return (
     <div className="p-0">
       <img
@@ -13,7 +13,7 @@ const Novios = () => {
         style={{ marginTop: topNubes}}
       />
 
-      <div className='container' style={{ width: anchoEstilo, marginTop: '-13%' }}>
+      <div className='container' style={{ width: anchoEstilo, marginTop: '1%' }}>
         <img
           src="images/Datos-de-los-Novios.png" // Reemplaza con la ruta de tu imagen
           alt="Imagen de Boda"
