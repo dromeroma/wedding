@@ -68,7 +68,7 @@ const AudioPlayer = () => {
   }, [isPaused]);
 
   return (
-    <div style={{ position: 'fixed', bottom: '20px', right: '20px', color: 'red' }}>
+    <div style={{ position: 'fixed', bottom: '20px', right: '20px', color: '#FFD700' }}>
       <i className={`fa ${isPaused ? 'fa-play' : 'fa-pause'}`} id="audio-control" style={{fontSize: '200%'}} onClick={togglePause}></i>
     </div>
   );

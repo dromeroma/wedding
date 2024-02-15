@@ -3,7 +3,7 @@ import 'animate.css';
 
 const Novios = () => {
   const anchoEstilo = window.innerWidth > 1024 ? '50%' : window.innerWidth < 768 ? '80%' : '70%';
-  const topNubes = window.innerWidth > 1024 ? '-2.3%' : window.innerWidth < 768 ? '-1.6%' : '-1%';
+  const topNubes = window.innerWidth > 1024 ? '-2.3%' : window.innerWidth < 768 ? '-11.0%' : '-1%';
   return (
     <div className="p-0">
       <img
